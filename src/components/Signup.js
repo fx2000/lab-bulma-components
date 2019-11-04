@@ -2,7 +2,7 @@ import React from 'react';
 import CoolButton from "./CoolButton";
 import FormField from "./FormField";
 
-export default function Signup() {
+const Signup = () => {
   return (
     <div>
       <form action="#" method="POST">
@@ -14,3 +14,5 @@ export default function Signup() {
     </div>
   )
 }
+
+export default Signup;
